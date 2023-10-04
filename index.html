@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div class="preloader"></div>
+    <nav class="navbar" data-aos="zoom-out-down">
+        
+        <ul class="nav-list" >
+            <!-- <div class="first-child"><img src="./images/images_clipdrop-background-removal.png" alt="""></div> -->
+            <li><a href="#home" >Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section">
+        <div class="section intro-section">
+            <div class="fixed-bg"></div>
+            <div class="image">
+                    <!-- <img src="./images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg" alt=""> -->
+                </div>
+            <div class="container">
+                
+                <div class="typing-container">
+                    <p class="typing-text"></p>
+                  </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="section projects-section projects-content">
+            <h2>My Projects</h2><br>
+        </div>
+    </section>
+
+
+    <div class="parallax">
+        <div class="parallax-container">
+            <div class="parallax-layer layer-front">
+
+            </div>
+        </div>
+    </div>
+    <div id="about" class="about">
+        <div class=" about-section about-content">
+           <div class="about-content" >
+            <h2 data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">about.</h2>
+            <p data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">👋 Hi there! I'm [Your Name], a passionate student diving into the world of web design and development.
+                With a keen interest in crafting visually captivating and user-friendly websites, I'm currently on a
+                learning journey to master HTML, CSS, and JavaScript. Through courses, experimentation, and hands-on
+                projects, I'm building a foundation to create digital experiences that leave a mark. While I'm still
+                honing my skills, I'm excited to showcase my progress and share my enthusiasm for the endless
+                possibilities of web technology. Let's connect and explore the ever-evolving realm of web development
+                together!
+
+            </p>
+           </div>
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="parallax-container">
+            <div class="parallax-layer layer-front1">
+
+            </div>
+        </div>
+    </div>
+    <section id="contact" class="section contact-section">
+        <div class="contact-contect">
+            <h2 data-aos="fade-down">Contact Me <br></h2>
+            <p data-aos="fade-down">Feel free to get in touch with me using the form below.</p>
+        </div>
+
+        <div data-aos="fade-down">
+            <form class="contact-form">
+                <label for="name" data-aos="fade-left">Name:</label>
+                <input type="text" id="name" name="name" required data-aos="fade-left">
+
+                <label for="email" data-aos="fade-left">Email:</label>
+                <input type="email" id="email" name="email" required data-aos="fade-left">
+
+                <label for="message" data-aos="fade-left">Message:</label>
+                <textarea id="message" name="message" rows="4" required data-aos="fade-left"></textarea>
+
+                <button type="submit" data-aos="fade-left">Send</button>
+            </form>
+        </div>
+    </section>
+    
+    <script src="./script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
+</html>
